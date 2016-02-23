@@ -1,0 +1,47 @@
+#jafarBanner{
+	width: 100%;
+}
+#gameBanner{
+	background: black;
+}
+#compTauntContainer{
+	text-align: center;
+}
+body{
+	background: black;
+	font-weight: bold;
+	color: maroon;
+
+}
+#compTaunt{
+	font-size: 20pt;
+}
+#navbar-wrapper-id{
+	height: 60px;
+	background: maroon;
+	color: black;
+	font-size: 16pt;
+}
+#navbar-id{
+	background: maroon;
+	border:none;
+}
+.navLabels{
+	margin: 0px 5px 0px 5px;
+}
+#headerWins{
+	float: left;
+}
+#headerLosses{
+	float: left;
+}
+#headerGuesses{
+	margin-left: 15px;
+
+}
+#headerGuessesRemaining{
+	float: right;
+}
+#compVoice{
+	display: none;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Jafar's Jinx</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+      <div id="navbar-wrapper-id"class="navbar-wrapper">
+        <div class="container">
+          <nav id="navbar-id" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div id="scoreboard" class"navbar-header">
+                <label id = "headerWins" class="col-md-2 control-label navLabels">Wins:</label>
+                <label id = "headerLosses" class="col-md-2 control-label navLabels">Losses:</label>
+                <label id = "headerGuesses" class="col-md-4 control-label navLabels">You guessed:</label>
+                <label id = "headerGuessesRemaining" class="col-md-2 control-label navLabels">Left: </label>
+              </div>
+            </div>
+          </nav> 
+        </div>  
+      </div>
+      <div id="fullSiteWrapper" class="container">
+        <div class="row">
+          <div id="gameBanner"class="jumbotron">
+            <img id="jafarBanner"src="images/jafar.jpeg">
+          </div><!-- end jumbotron -->
+        </div><!-- end jumbotron row -->
+      <div class="row">
+        <div id="compTauntContainer" class="col-md-12">
+            <p id="compTaunt">Read Jafar's mind!</p>
+            <span id="compVoice"></span>
+        </div>
+      </div><!--end Jafar's Mind row -->
+    </div><!-- end page container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
