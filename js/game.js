@@ -34,7 +34,7 @@ var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
               document.getElementById('headerWins').innerHTML = "Win: " + userWins;
               document.getElementById('headerGuessesRemaining').innerHTML = "Left: " + userRemainingGuesses; 
 
-              var html = "<audio src='images/alad-believe.wav' type='audio/wav' autoplay></audio>";
+              var html = "<audio src='images/alad-canttakeit.wav' type='audio/wav' autoplay></audio>";
               document.getElementById('compVoice').innerHTML = html; 
 
               compRandomLetter = getCompRandomLetter();
